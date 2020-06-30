@@ -1,7 +1,7 @@
 const _express = require("express");
 const { urlencoded } = require("express");
 const app = _express();
-//middleware convert data to json the parse
+//middleware for convert data to json
 app.use(_express.json());
 app.use(urlencoded({ extended: true }));
 
